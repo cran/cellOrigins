@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+S3method(diagnosticPlots, list)
+S3method(diagnosticPlots, matrix)
+importFrom("graphics", "par", "plot")
+importFrom("stats", "na.exclude")
+importFrom("iterpc", "iterpc", "getall")
